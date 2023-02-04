@@ -5,6 +5,8 @@
 boby {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    color: #000000;
+
 }
 .container {
     max-width: 1110px;
@@ -195,4 +197,34 @@ boby {
     font-size: 16px;
     line-height: 1.3;
     color: #7E9EC9;
+}
+
+/* PROJECT*/
+.progect {
+    padding-top: 80px;
+    padding-bottom: 120px;
+    text-align: center;
+    
+}
+.project-header {
+    margin: 0;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 1.3;
+}
+.project-img {
+    margin-bottom: 70px;
+}
+.project-description {
+    margin: 0 auto 60px;
+    max-width: 730px;
+
+}
+.project-description p {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 1.5;
+
 }
