@@ -4,12 +4,49 @@ boby {
 }
 
 .header {
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(243, 178, 118);
-
+    position: relative;
+    
     display: flex; /* Определяем модель flex-box для элемента .header */
     flex-direction: column; /* Выстраиваем flex-элементы в колонку, основная ось -Y */
     justify-content: center; /* Выравнивание по основной оси */
     align-items: center; /* Выравнивание по поперечной оси */
+
+    width: 100%;
+    height: 100vh;
+
+    background-color: #637894;
+    background-image: url('./../img/header/header-bg.jpg');
+    background-size: cover; /* Размер фонового изображения, cover-заполнит полностью блок в котором размещено */
+    background-position: center;
+}
+.header-title {
+    margin: 0;
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 130%; /* 1.3*56=высота строки */   
+    text-align: center;
+    color: #FFFFFF;
+}
+.header-subtitle {
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    
+    text-align: center;
+    letter-spacing: 0.2em; /* Растояние между буквами*/
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+.header-arrow {
+    width: 48px;
+    height: 48px;
+
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
