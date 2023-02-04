@@ -122,3 +122,9 @@ boby {
     line-height: 130%;
     color: #000000;
 }
+/*FOOTER*/
+.footer {
+    padding-top: 45px;
+    padding-bottom: 130px;
+    background: #1E4776;
+}
