@@ -201,6 +201,12 @@ boby {
     font-size: 16px;
     text-transform: uppercase;
     text-decoration: none;
+    transition: all 0.2s ease-in;
+
+}
+.footer-button:hover {
+    background-color: #fff;
+    color: #1E4776;
 
 }
 .footer-contacts p {
@@ -254,4 +260,9 @@ boby {
     font-size: 16px;
     text-transform: uppercase;
     text-decoration: none;
+    transition: all 0.2s ease-in;
+}
+.project-btn-back:hover {
+    background-color: #275bec;
+    color: #fff;
 }
