@@ -127,4 +127,27 @@ boby {
     padding-top: 45px;
     padding-bottom: 130px;
     background: #1E4776;
+    color: white;
+}
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-copyrigth{
+   color: #7E9EC9;
+   line-height: 1.3;
+}
+
+.footer-copyrigth-name {
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.footer-copyrigth p {
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 600;
 }
