@@ -1,0 +1,14 @@
+boby {
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(243, 178, 118);
+
+    display: flex; /* Определяем модель flex-box для элемента .header */
+    flex-direction: column; /* Выстраиваем flex-элементы в колонку, основная ось -Y */
+    justify-content: center; /* Выравнивание по основной оси */
+    align-items: center; /* Выравнивание по поперечной оси */
+}
