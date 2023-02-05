@@ -4,6 +4,22 @@
     .card {
         width: calc(50% - 15px);
     }
+    .footer {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .footer-row {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-col {
+        margin-bottom: 50px;
+    }
+    .footer-col:first-child {
+        margin-bottom: 0;
+    }
+
     
 }
 
@@ -45,5 +61,20 @@
     }
     .card p {
         font-size: 14px;
+    }
+    .footer-copyrigth-name {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .footer-copyrigth p {
+        font-size: 14px;
+    }
+    .footer-icons p {
+        font-size: 14px;
+    }
+    .footer-contacts p {
+        font-size: 14px;
+        margin: 0;
+        margin-top: 15px;
     }
 }
